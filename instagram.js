@@ -1,7 +1,6 @@
 const puppeteer = require('puppeteer');
 var Crawler = require("crawler");
 var fs = require('fs');
-var mkdirp = require('mkdirp');
 var getDirName = require('path').dirname;
 
 const insta = process.argv[2];
